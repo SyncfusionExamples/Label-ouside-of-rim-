@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:CircularGaugeDemo"
+             xmlns:gauge="clr-namespace:Syncfusion.SfGauge.XForms;assembly=Syncfusion.SfGauge.XForms"
+             x:Class="CircularGaugeDemo.MainPage">
+    <gauge:SfCircularGauge x:Name="circularGauge" >
+        <gauge:SfCircularGauge.Scales>
+            <gauge:Scale StartAngle="180" SweepAngle="180" ShowLabels="True" ShowRim="True"
+                   StartValue="0" EndValue="150" Interval="30" RimColor="#e0e0e0"
+           RadiusFactor="0.83" RimThickness="40"    LabelOffset="0.95" ScaleStartOffset="0.83" ScaleEndOffset="0.73">
+
+                <gauge:Scale.Pointers>
+                    <gauge:NeedlePointer KnobRadius="0" Value="10" KnobStrokeColor="#0682F6" KnobStrokeWidth="6"
+                                        Color="#F67E09"  KnobColor="White" Type="Triangle" Thickness="10" LengthFactor="0.66"/>
+                </gauge:Scale.Pointers>
+
+                <gauge:Scale.MajorTickSettings>
+                    <gauge:TickSettings StartOffset="0.83" EndOffset="0.90" Thickness="2"/>
+                </gauge:Scale.MajorTickSettings>
+                <gauge:Scale.MinorTickSettings>
+                    <gauge:TickSettings StartOffset="0.83" EndOffset="0.88" Thickness="2"/>
+                </gauge:Scale.MinorTickSettings>
+                <gauge:Scale.Ranges>
+                    <gauge:Range StartValue = "0" EndValue = "10" Color = "#F67E09" Thickness = "40" Offset = "0.83" />
+                </gauge:Scale.Ranges>
+            </gauge:Scale>
+        </gauge:SfCircularGauge.Scales>
+    </gauge:SfCircularGauge>
+</ContentPage>
