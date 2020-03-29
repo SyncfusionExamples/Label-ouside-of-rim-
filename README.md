@@ -45,7 +45,7 @@ By adjusting the Offset property of [**Scale**](https://help.syncfusion.com/cr/x
 
 [How to change the position of ticks?](https://help.syncfusion.com/xamarin/circular-gauge/tick-setting#setting-position-for-ticks)
 
-Also refer our [feature tour](https://www.syncfusion.com/xamarin-ui-controls/xamarin-circular-gauge) page to know more features available in our SfImageEditor.
+Also refer our [feature tour](https://www.syncfusion.com/xamarin-ui-controls/xamarin-circular-gauge) page to know more features available in our SfCircularGauge.
 
 ## <a name="troubleshooting"></a>Troubleshooting ##
 ### Path too long exception
